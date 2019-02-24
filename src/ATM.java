@@ -63,7 +63,9 @@ public class ATM {
                         balance += scNP.nextInt();
                         System.out.println("\nSuccessfully Deposited");
 
+                        System.out.println("\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         System.out.println("Your balance is now "+balance+" PKR");
+                        System.out.println("|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
 
                         System.out.println("Do you want to go to main menu again? (y/n)");
                         userChoice = scP.next().charAt(0);
@@ -71,7 +73,7 @@ public class ATM {
                             repeate = true;
                         }else{
                             repeate = false;
-                            System.out.println("Thanks 4 using our ATM");
+                            System.out.println("\n\nThanks 4 using our ATM");
                         }
 
                         break;
@@ -97,7 +99,9 @@ public class ATM {
 
                         System.out.println("\nSuccessfully transferred");
 
+                        System.out.println("\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         System.out.println("Your balance is now "+balance+" PKR");
+                        System.out.println("|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
 
                         System.out.println("Do you want to go to main menu again? (y/n)");
                         userChoice = scP.next().charAt(0);
@@ -105,13 +109,15 @@ public class ATM {
                             repeate = true;
                         }else{
                             repeate = false;
-                            System.out.println("Thanks 4 using our ATM");
+                            System.out.println("\n\nThanks 4 using our ATM");
                         }
 
                         break;
                     case 4:
 
+                        System.out.println("\n|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         System.out.println("Your balance is now "+balance+" PKR");
+                        System.out.println("|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
 
                         System.out.println("Do you want to go to main menu again? (y/n)");
                         userChoice = scP.next().charAt(0);
@@ -119,7 +125,7 @@ public class ATM {
                             repeate = true;
                         }else{
                             repeate = false;
-                            System.out.println("Thanks 4 using our ATM");
+                            System.out.println("\n\nThanks 4 using our ATM");
                         }
 
                         break;
@@ -146,7 +152,7 @@ public class ATM {
                             repeate = true;
                         }else{
                             repeate = false;
-                            System.out.println("Thanks 4 using our ATM");
+                            System.out.println("\n\nThanks 4 using our ATM");
                         }
 
                         break;
